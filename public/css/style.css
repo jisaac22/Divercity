@@ -1,0 +1,400 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.section{
+  background-color: white;
+  height: 100vh;
+  width: 75vw;
+  margin-left: 12.5%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 13px;
+
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+header a {
+  margin-top: 2%;
+}
+
+.home {
+  margin-left: 30%;
+}
+
+a {
+  color: #93959D;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+a img{
+  margin-right: 5px;
+}
+
+.donate {
+  color: #FF004A;
+}
+
+.match {
+  background-color: #0089FF;
+  margin-top: 1.5%;
+  border-radius: 8px;
+  gap: 10px;
+  color: white;
+  border: none;
+  width: 142px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.infoSection {
+
+  background-color: white;
+  display: flex;
+}
+
+.columnOne{
+  margin-left: 5%;
+  width: 45%;
+}
+
+.columnTwo {
+  width: 45%;
+  text-align: center;
+
+}
+.columnOne div {
+  margin: auto;
+  width: 60%;
+  margin-top: 15px;
+}
+
+.columnOne div h1 {
+  color: #0089FF;
+  font-size: 50px;
+}
+
+.columnOne div p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+span {
+  font-weight: bolder;
+}
+
+.columnOne .icons {
+   margin-top: 100px;
+}
+
+.moon, .sun, .star {
+  position: absolute;
+}
+
+.moon {
+  margin-top: -25%;
+}
+
+.sun {
+  margin-top: -20%;
+  margin-left: 20%;
+}
+
+.star {
+  margin-top: -7.5%;
+  margin-left: -1.5%;
+}
+
+.cellImages {
+  position: relative;
+}
+
+.cell-picture {
+ position: absolute;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50%{ 
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+   90% {
+    opacity: 0;
+   } 
+  100% {
+    opacity: 0;
+  }
+}
+ 
+.cell2 {
+  position: relative;
+  animation-name: fadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+
+.supportBtn {
+  background-color: #0089FF;
+  margin-top: 1.5%;
+  border-radius: 8px;
+  gap: 10px;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.moreInfo {
+  margin-left: 25%;
+  width: 50%;
+  height: 20%;  
+  overflow-y: scroll;
+}
+
+.p1 h2 {
+  font-size: 30px;
+  color: #FF004A
+}
+
+.p2 h2 {
+  color: gold;
+}
+
+.p3 h2 {
+  color: #0089FF;
+}
+
+.stories{
+  background-color: #0089FF;
+  color: white;
+  padding: 40px;
+}
+
+
+.successTitle p {
+  width: 95%;
+  /* height: 50px; */
+  text-align: center;
+  color: #0089FF;
+  background-color: white;
+  font-size: 25px;
+  border-radius: 5px; 
+  font-weight: bolder;
+  margin-top: 80px;
+  padding: 8px;
+  margin-left: 25%;
+}
+
+.storyHeader {
+  display: flex;
+}
+
+.arrows{
+  margin-left: 68%;
+}
+
+.arrows img {
+  margin-top: 100%;
+}
+
+.experience {
+  margin-left: 10%;
+  width: 45%;
+  text-align:start;
+}
+
+.experience p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.storyColumn {
+  display: flex;
+}
+
+
+.coupleImg {
+  margin-left: 10%;
+}
+
+
+.blogSection {
+  padding: 30px;
+  background-color: white;
+}
+
+.blogTitle {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+.blogTitle h1 {
+  color: rgb(172, 146, 2);
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.join {
+  font-size: 20px;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.blogs {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.blogs div {
+  margin-top: 50px;
+}
+
+.blogOne {
+  margin-left: 20%;
+  width: 70%;
+}
+
+.blogTwo {
+  margin-left: 40px;
+  width: 70%;
+}
+
+.blogThree {
+  width: 70%;
+}
+
+.blogsTitle1 {
+  padding: 5px;
+  color: white;
+  width: 32%;
+  background-color: rgb(172, 146, 2);
+  border-radius: 5px;
+}
+
+.blogsTitle2 {
+  padding: 5px;
+  color: white;
+  width: 33%;
+  background-color: rgb(172, 146, 2);
+  border-radius: 5px;
+}
+
+.blogsTitle3 {
+  padding: 5px;
+  color: white;
+  width: 30%;
+  background-color: rgb(172, 146, 2);
+  border-radius: 5px;
+}
+
+.notes {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.dates {
+  color: #93959D;
+}
+
+.loadMore {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 12%;
+  background-color: rgb(172, 146, 2);
+  border-radius: 5px;
+  margin-left: 40%;
+}
+
+
+.signUp {
+  background-color: #00BA84;
+  margin-top: -20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.signUp h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.signUp p {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.inputSection {
+  display: grid;
+  grid-auto-rows: auto;
+  gap: 20px;
+}
+
+.input {
+  border: 1px gray solid;
+  width: 30%;
+  margin-left: 35%;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.subscribeBtn {
+  background-color: white;
+  color: green;
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 43%;
+  padding: 13px;
+  width: 15%;
+  border-radius: 10px;
+}
+
+.subscribe p {
+  font-size: 12px ;
+}
+
+
+.contacts {
+  background-color: white;
+  margin-top: -18px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.contacts h3 {
+  color:#0089FF;
+}
